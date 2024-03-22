@@ -1,0 +1,97 @@
+
+/*  ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    .bahiana-regular {
+        font-family: "Bahiana", sans-serif;
+      }
+      
+}
+
+body{
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1200px;
+    margin: 0 alto;
+}
+
+.flex{
+    display: flex;
+}
+
+/* ESTILO DO CABEÇALHO */
+header{
+    padding: 0 50px;
+
+    background-color: rgb(77, 76, 76);
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #727272;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgb(5, 255, 5);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .btn-contato button:hover{
+    box-shadow: 0px 0px 8px #ffffff;
+}
+
+/* estilo do topo do site */
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+}
+
+.topo-do-site h1{
+    color: #fff; 
+}
+
+main{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+.txt-topo-site h1, p{
+    padding-bottom: 30px;
+}
+.txt-topo-site{
+    padding-right: 40px;
+}
